@@ -12,7 +12,27 @@ i{
     /*color: #2fccd0;*/
     color: #5f1782;
 }
+a{ text-decoration: none;}
 
+a:hover{ text-decoration: none;}
+
+.btn a{
+    
+    margin:0 5px;
+    padding: 10px 15px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400px;
+    line-height: 1.4;
+    text-align: center;
+}
+.btn a:hover{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
 
 
 /****body scroll bar css****/
@@ -250,7 +270,7 @@ text-align: center;
 
 .select-box{
     display: flex;
-    width: 400px;
+    width: 250px;
     flex-direction: column;
 }
 
@@ -265,6 +285,27 @@ text-align: center;
     border-radius: 8px;
     overflow: hidden;
     order: 1;
+}
+
+.select-box .options-container a{
+   margin:0 5px;
+     padding: 10px 35px;
+    outline: none;
+     background:  #5f1782;
+     background-size: 250px 250px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.select-box .options-container a:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
 .selected{
@@ -325,9 +366,15 @@ text-align: center;
     cursor: pointer;
 }
 
+
 .select-box .option .radio{
     display: none;
 }
+
+
+
+
+
 
 /*---------------------offer section start ---------------------*/
 .serviceoffer{
